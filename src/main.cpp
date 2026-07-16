@@ -53,6 +53,7 @@ void setup() {
   ledcAttachPin(ENB, PWM_CHANNEL_B); // Define pino ENB como PWM
 
   ledcSetup(PWM_BUZINA, PWM_FREQ, PWM_RESOLUTION);
+  ledcAttachPin(BUZZER, PWM_BUZINA);
 }
 
 void loop() {
