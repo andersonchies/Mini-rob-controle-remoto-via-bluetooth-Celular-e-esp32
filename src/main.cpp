@@ -51,6 +51,8 @@ void setup() {
             PWM_RESOLUTION); // Configura canal A de PWM da ponte H Lado 1
   ledcAttachPin(ENA, PWM_CHANNEL_A); // Define pina ENA como PWM
   ledcAttachPin(ENB, PWM_CHANNEL_B); // Define pino ENB como PWM
+
+  ledcSetup(PWM_BUZINA, PWM_FREQ, PWM_RESOLUTION);
 }
 
 void loop() {
