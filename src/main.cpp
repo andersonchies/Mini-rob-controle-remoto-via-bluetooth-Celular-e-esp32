@@ -179,8 +179,17 @@ bool comando_recebido() {
   case 'Y':
     Serial.println("Buzina");
     // Fazer tocar super mario no buzzer modulando a frequência
+    Toca_Mario();
+    break;
+  case 'X':
+    Serial.println("Luzes Ligadas");
+    digitalWrite(FAROL, HIGH);
     break;
   }
+case 'x':
+  Serial.println("Luzes Desligadas");
+  digitalWrite(FAROL, LOW);
+  break;
   return false;
 }
 
@@ -234,3 +243,5 @@ void nota(int freq, int duracao) {
 // Trás esq I
 // Trás dir J
 // Buzina Y
+// Liga Luzes X
+// Desliga Luzes x
