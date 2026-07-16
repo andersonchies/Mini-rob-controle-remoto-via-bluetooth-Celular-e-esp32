@@ -25,6 +25,8 @@ Comandos recebidos via app Bluetooth:
 | I | Trás Esquerda |
 | J | Trás Direita |
 | Y | Buzina |
+| X | Liga Farol |
+| x | Desliga Farol |
 
 ## 🔊 Extras
 - Buzzer tocando música do Mario 🍄
