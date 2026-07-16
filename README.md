@@ -4,6 +4,7 @@ Projeto de um carrinho controlado por celular usando ESP32 e Bluetooth.
 
 ## ⚙️ Projeto
 - Toda a programação foi realizada com o PlatformIO
+- Para encontrar o código no github vá na pasta src, o código é o arquivo main.cpp
 
 ## 📡 Tecnologias
 - ESP32
