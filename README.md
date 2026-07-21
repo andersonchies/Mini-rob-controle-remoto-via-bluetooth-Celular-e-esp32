@@ -5,11 +5,12 @@ Projeto de um carrinho controlado por celular usando ESP32 e Bluetooth.
 ## ⚙️ Projeto
 - Toda a programação foi realizada com o PlatformIO
 - Para encontrar o código no github vá na pasta src, o código é o arquivo main.cpp
+- Para editar no ArduinoIDE, é necessário criar um novo projeto, copiar o código do arquivo main.cpp, e remover o seguinte trecho "#include <Arduino.h>", e instalar as bibliotecas necessárias.
 
 ## 📡 Tecnologias
 - ESP32
 - Bluetooth Serial
-- Arduino / PlatformIO
+- ESP32 / PlatformIO
 
 ## 🎮 Controle
 Comandos recebidos via app Bluetooth:
@@ -29,9 +30,9 @@ Comandos recebidos via app Bluetooth:
 | x | Desliga Farol |
 
 ## 🔊 Extras
-- Buzzer tocando música do Mario 🍄
+- Buzina tocando música do Mario 🍄
 
 ## ⚙️ Como usar
 1. Conectar no Bluetooth: `ESP32_BT`
-2. Usar app de controle Bluetooth
+2. Usar app de controle Arduino Bluetooth Control, controle de carro
 3. Enviar comandos
