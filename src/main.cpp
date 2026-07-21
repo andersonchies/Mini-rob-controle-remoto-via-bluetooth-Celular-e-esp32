@@ -105,6 +105,7 @@ void loop() {
   if (SerialBT.available()) {
     c = SerialBT.read();
     flagbt = true;
+    Serial.println(c);
   }
   if (flagbt == true) {
     flagbt = comando_recebido();
@@ -265,7 +266,11 @@ bool comando_recebido() {
     digitalWrite(FAROL, LOW);
     break;
     return false;
+  default:
+    Serial.println("Comando desconhecido");
+    break;
   }
+  return false;
 }
 
 //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
